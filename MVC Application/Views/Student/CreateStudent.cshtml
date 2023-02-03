@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+@addTagHelper * , Microsoft.AspNetCore.Mvc.TagHelpers
+@model MVC_Application.Models.Student;
+}
+
+<style>
+.validation-summary-errors {
+  border:2px solid red;
+  color:red;
+  font-weight:bold;
+  margin:6px;
+  width:30%;
+}
+
+.field-validation-error{
+  color:red;
+   font-weight:bold;
+   background-color:yellow;
+}
+
+.input-validation-error{
+  color:red;
+  font-weight:bold;
+  background-color:pink;
+}
+</style>
+
+<div asp-validation-summary="All">
+    <span>Please correct the following error.</span>
+</div>
+
+<form asp-controller="Student" asp-action="CreateStudent" method="post" style="display:flex;flex-direction:column">
+
+    <label asp-for="StudentId">Student ID</label>
+    <input asp-for="StudentId" />
+    <label asp-for="Name">Name</label>
+    <input asp-for="Name" />
+    <label asp-for="Address">Address</label>
+    <input asp-for="Address" />
+    <label asp-for="Email">E-Mail</label>
+    <input asp-for="Email" />
+    <input type="submit" value="Submit" />
+</form>

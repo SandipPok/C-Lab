@@ -1,0 +1,26 @@
+C:\Users\User\source\repos\MVC Application\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\source\repos\MVC Application\bin\Debug\net6.0\appsettings.json
+C:\Users\User\source\repos\MVC Application\bin\Debug\net6.0\MVC Application.staticwebassets.runtime.json
+C:\Users\User\source\repos\MVC Application\bin\Debug\net6.0\MVC Application.exe
+C:\Users\User\source\repos\MVC Application\bin\Debug\net6.0\MVC Application.deps.json
+C:\Users\User\source\repos\MVC Application\bin\Debug\net6.0\MVC Application.runtimeconfig.json
+C:\Users\User\source\repos\MVC Application\bin\Debug\net6.0\MVC Application.dll
+C:\Users\User\source\repos\MVC Application\bin\Debug\net6.0\MVC Application.pdb
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\MVC Application.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\MVC Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\MVC Application.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\MVC Application.AssemblyInfo.cs
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\MVC Application.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\MVC Application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\MVC Application.RazorAssemblyInfo.cache
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\MVC Application.RazorAssemblyInfo.cs
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\scopedcss\bundle\MVC Application.styles.css
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\scopedcss\projectbundle\MVC Application.bundle.scp.css
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\MVC Application.dll
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\refint\MVC Application.dll
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\MVC Application.pdb
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\MVC Application.genruntimeconfig.cache
+C:\Users\User\source\repos\MVC Application\obj\Debug\net6.0\ref\MVC Application.dll

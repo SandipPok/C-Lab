@@ -1,0 +1,14 @@
+﻿@model Employee;
+
+@{
+    Layout = "_Layout";
+    var title = "Add Employee";
+    ViewData["Title"] = title;
+}
+
+<form asp-controller="Employee" asp-action="CreateEmployee" method="POST">
+    <input type="text" asp-for="Name" />
+    <input type="text" palceholder="Address" asp-for="Address" />
+    <input type="number" palceholder="Phone Number" asp-for="PhoneNo" />
+    <button class="btn btn-primary">Add Employee</button>
+</form>

@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model MVC_Application.Models.Employee;
+<h1>Detail of employee</h1>
+@*<p><h5>Employee ID: @Model.EmpId</h5></p>
+<p><h5>Name: @Model.Name</h5></p>
+<p><h5>Address: @Model.Address</h5></p>
+<p><h5>Department: @Model.Department</h5></p>
+<p><h5>Salary: @Model.Salary</h5></p>*@
+<table>
+    <tr>
+        <td>Employee ID</td>
+        <td>@Model.EmpId</td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>@Model.Name</td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td>@Model.Address</td>
+    </tr>
+    <tr>
+        <td>Department</td>
+        <td>@Model.Department</td>
+    </tr>
+    <tr>
+        <td>Salary</td>
+        <td>@Model.Salary</td>
+    </tr>
+</table>

@@ -1,0 +1,71 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    string creator = "Sandeep";
+    string[] students = {"Ram", "Sita", "Hari", "Badri"};
+    int[] num = { 11, 53, 75, 86, 37, 85, 08, 10, 11, 23, 20, 55 };
+}
+<h1>Welcome to my first Razor Page.</h1>
+<small>Made by @creator</small>
+@{
+    foreach(string items in students)
+    {
+        <span>@items</span>
+    }
+}
+<table border="1">
+    <tr>
+        <th>Even Numbers</th>
+        <th>Odd Numbers</th>
+    </tr>
+    @for (int i = 0; i < num.Length; i++)
+    {
+        <tr>
+        if(num[i] % 2 == 0)
+        {
+            <td>@num[i]</td>
+        }
+        </tr>
+
+    }
+</table>
+
+@*<table border="1">
+    <tr border="1">
+        <th>Even Numbers</th>
+        <th>Odd Numbers</th>
+    </tr>
+    <tr>
+        <td>86</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>53</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>75</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>37</td>
+    </tr>
+        <tr>
+        <td></td>
+        <td>85</td>
+    </tr>
+        <tr>
+        <td></td>
+        <td>11</td>
+    </tr>
+        <tr>
+        <td></td>
+        <td>23</td>
+    </tr>
+        <tr>
+        <td></td>
+        <td>55</td>
+    </tr>
+</table>*@
